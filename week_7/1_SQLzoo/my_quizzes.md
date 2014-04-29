@@ -6,7 +6,7 @@
 
 ### My Quiz Results:
 <!-- Include the link to your image (saved in the imgs folder) to display it inline. -->
-(sqlzoo_quiz.jpg)
+(../imgs/sqlzoo_quiz.jpg)
 
 
 
