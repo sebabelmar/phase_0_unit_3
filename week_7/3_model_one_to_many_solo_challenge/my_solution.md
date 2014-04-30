@@ -15,10 +15,10 @@ When tweeting users can add a photo and/or disclose location, in adition to the 
 ## Release 2: Explain the relationship
 The relationship between `users` and `tweets` is: 
 One to multiple because one user can have multiple tweets but one tweet can have only one user.
-I think they are conectec on the user_id (@user)
+I think they are conected threw the user_id (@user)
 
 ## Release 3: Schema Design
-<!-- Include your image (inline) of your schema -->
+![alt tag](https://raw.githubusercontent.com/sebabelmar/phase_0_unit_3/master/week_7/imgs/Schema_tweeter.png)
 
 ## Release 4: SQL Statements
 <!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
