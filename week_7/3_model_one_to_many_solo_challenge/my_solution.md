@@ -22,6 +22,24 @@ I think they are conected threw the user_id (@user)
 
 ## Release 4: SQL Statements
 <!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
+Statement for all the tweets for a certain user id:
+<code>
+SELECT tweeter_users.at_id, name, profile_photo, tweets.140_char, photo, tweets.location
+FROM tweeter_users JOIN tweets
+ON tweeter_users.at_id = tweets.at_id
+WHERE tweeter_users.at_id = "some user"
+</code>
+
+Statement for the tweets for a certain user id that were made after last Wednesday (whenever last Wednesday was for you)
+<code>
+SELECT tweeter_users.at_id, name, profile_photo, tweets.140_char, photo, tweets.location
+FROM tweeter_users JOIN tweets
+ON tweeter_users.at_id = tweets.at_id
+WHERE tweetes.created_at <= 4/23/2004 11:59:00 PM
+</code>
+
+
+
 
 ## Release 5: Reflection
 <!-- Be sure to add your reflection here!!! -->a
