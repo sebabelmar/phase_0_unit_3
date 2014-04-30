@@ -35,11 +35,28 @@ Statement for the tweets for a certain user id that were made after last Wednesd
 SELECT tweeter_users.at_id, name, profile_photo, tweets.140_char, photo, tweets.location  
 FROM tweeter_users JOIN tweets  
 ON tweeter_users.at_id = tweets.at_id  
-WHERE tweetes.created_at <= 4/23/2004 11:59:00 PM
+WHERE tweetes.created_at <= 4/23/2004 11:59:00 PM 
+AND tweeter_users.at_id = "some user"  
+</code>
+
+Statement for all the tweets associated with a given user's twitter handle:  
+<code>
+SELECT tweeter_users.at_id, name, profile_photo, tweets.140_char, photo, tweets.location  
+FROM tweeter_users JOIN tweets  
+ON tweeter_users.at_id = tweets.at_id  
+WHERE tweeter_users.name = "some user name"  
+</code>
+
+Statement for the twitter handle associated with a given tweet id:  
+<code>
+SELECT name
+FROM tweeter_users JOIN tweets  
+ON tweeter_users.at_id = tweets.at_id  
+WHERE tweets.id = "some tweet id"  
 </code>
 
 
-
-
 ## Release 5: Reflection
-<!-- Be sure to add your reflection here!!! -->a
+Great challenge, I felt I was able to understand better something that I imagine is super complex.
+Visualizing schemas is a great learning process. Assuming a structure and getting to write queries for it is hard but a good practice to real challenges that will come soon.
+I’m not sure about how I link users and tweets but hopefully somebody get to read my code and so I can double check that one. 
