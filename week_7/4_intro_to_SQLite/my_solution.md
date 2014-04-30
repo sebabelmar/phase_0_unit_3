@@ -20,7 +20,7 @@ sqlite>
 sqlite> SELECT * FROM users;
 id          first_name  last_name   email                  created_at           updated_at         
 ----------  ----------  ----------  ---------------------  -------------------  -------------------
-1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:10:37  2014-04-30 08:10:37
+1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:10:37  2014-04-30 08:10:37  
 2           Seba        Belmar      si.belmar@gmail.com    2014-04-30 08:16:02  2014-04-30 08:16:02
 
 
@@ -33,22 +33,22 @@ Error: column email is not unique
 sqlite> SELECT * FROM users;
 id          first_name  last_name   email                  created_at           updated_at         
 ----------  ----------  ----------  ---------------------  -------------------  -------------------
-1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:10:37  2014-04-30 08:10:37
+1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:10:37  2014-04-30 08:10:37  
 2           Seba        Belmar      si.belmar@gmail.com    2014-04-30 08:16:02  2014-04-30 08:16:02
 
 
 ## Release 3: Add a column
 id          first_name  last_name   email                  created_at           updated_at           nicknames 
 ----------  ----------  ----------  ---------------------  -------------------  -------------------  ----------
-1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:46:39  2014-04-30 08:46:39  Kimli     
-2           Seba        Belmar      si.belmar@gmail.com    2014-04-30 08:47:13  2014-04-30 08:47:13  Capo  
+1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:46:39  2014-04-30 08:46:39  Kimli       
+2           Seba        Belmar      si.belmar@gmail.com    2014-04-30 08:47:13  2014-04-30 08:47:13  Capo    
 
 
 ## Release 4: Change a value
 id          first_name  last_name   email                  created_at           updated_at           nicknames  
 ----------  ----------  ----------  ---------------------  -------------------  -------------------  -----------
-1           Kimmy       Lin         kimmy@devbootcamp.com  2014-04-30 08:46:39  2014-04-30 08:46:39  Ninja Coder
-2           Seba        Belmar      si.belmar@gmail.com    2014-04-30 08:47:13  2014-04-30 08:47:13  Capo  
+1           Kimmy       Lin         kimmy@devbootcamp.com  2014-04-30 08:46:39  2014-04-30 08:46:39  Ninja Coder  
+2           Seba        Belmar      si.belmar@gmail.com    2014-04-30 08:47:13  2014-04-30 08:47:13  Capo    
 
 ## Release 5: Reflect
 Because learning how to use SQL Workbench last week this challenge was easy to understand. It is always hard to remember the syntax. I have my notes for last week and I use them a lot. I think with time and practice this will get more intuitive and natural.
