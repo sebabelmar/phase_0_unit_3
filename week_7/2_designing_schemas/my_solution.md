@@ -6,7 +6,7 @@
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
-![alt tag](https://raw.githubusercontent.com/sebabelmar/phase_0_unit_3/master/week_7/imgs/Schema%20-%20Release%200.png)
+![alt tag](https://raw.githubusercontent.com/sebabelmar/phase_0_unit_3/master/week_7/imgs/Schema_Release_0.png)
 
 ## Release 1: One to Many Schema
 <!-- display your image inline here -->
