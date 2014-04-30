@@ -17,7 +17,6 @@ sqlite>
 
 
 ## Release 1: Insert Data 
-sqlite> SELECT * FROM users;
 id          first_name  last_name   email                  created_at           updated_at         
 ----------  ----------  ----------  ---------------------  -------------------  -------------------
 1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:10:37  2014-04-30 08:10:37  
@@ -25,12 +24,8 @@ id          first_name  last_name   email                  created_at           
 
 
 ## Release 2: Multi-line commands
-sqlite> INSERT INTO users
-   ...> (first_name, last_name, email, created_at, updated_at)
-   ...> VALUES
-   ...> ('Kimmey', 'Lin', 'kimmy@devbootcamp.com', DATETIME('now'), DATETIME('now'));
-Error: column email is not unique
-sqlite> SELECT * FROM users;
+Error: column email is not unique  
+
 id          first_name  last_name   email                  created_at           updated_at         
 ----------  ----------  ----------  ---------------------  -------------------  -------------------
 1           Kimmey      Lin         kimmy@devbootcamp.com  2014-04-30 08:10:37  2014-04-30 08:10:37  
