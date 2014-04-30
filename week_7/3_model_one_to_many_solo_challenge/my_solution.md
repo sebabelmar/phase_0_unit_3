@@ -18,7 +18,7 @@ One to multiple because one user can have multiple tweets but one tweet can have
 I think they are conected threw the user_id (@user)
 
 ## Release 3: Schema Design
-![alt tag](https://raw.githubusercontent.com/sebabelmar/phase_0_unit_3/master/week_7/imgs/Schema_tweeter.png)
+![alt tag](https://raw.githubusercontent.com/sebabelmar/phase_0_unit_3/master/week_7/imgs/Schema-tweeter.png)
 
 ## Release 4: SQL Statements
 <!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
