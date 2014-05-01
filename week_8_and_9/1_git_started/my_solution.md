@@ -1,9 +1,9 @@
 ## Release 2: Basic Git Commands
-Define the following commands and describe how they work/what they do.  
+Define the following commands and describe how they work/what they do.  SEBA BELMAR
 
 
 #### add
-<!-- Your defnition here -->
+<!-- Your defnition here -->  
 
 #### branch
 <!-- Your defnition here -->
