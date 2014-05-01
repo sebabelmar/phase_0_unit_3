@@ -4,6 +4,7 @@ Define the following commands and describe how they work/what they do.  SEBA BEL
 
 #### add
 <!-- Your defnition here -->  
+I want to commit and push this file
 
 #### branch
 <!-- Your defnition here -->
