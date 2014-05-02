@@ -7,7 +7,7 @@ Define the following commands and describe how they work/what they do.
 Inserts a file into the futere "commit bucket" aka. Stage or Index.
 It does not add a file to the repo. Instead brings git's attention to the file an leaves it ready to be commited.
 
-<code>git remote add origin https://github.com/username/myproject.git </code> 
+<code>git remote add origin https://github.com/username/myproject.git </code>  
 It can be use to reroute the git conection to github by adding a remote or remote upstream depenfing if we want to point our local repository to our remote version or the original version of it.
 
 #### branch
