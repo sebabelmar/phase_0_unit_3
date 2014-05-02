@@ -57,7 +57,7 @@ Sends your commits to GitHub
 Sends your commits in the "master" branch to GitHub
 
 #### reset
-<code>git reset</code>
+<code>git reset</code>  
 <code>git reset --soft</code>  
 <code>git reset --hard</code>  
 <code>git reset -- files</code>  
@@ -75,6 +75,16 @@ Displays the status of files and git of the current work directory.
 
 ## Release 3: Git Workflow
 
-- Push files to a remote repository
+###Push files to a remote repository
+Inside workdirectory already <code>git init</code>:
+Check if workdirectory is well connected to your github, add, commit, push.  
+<code>git remote -v</code>  
+<code>git add file</code>  
+<code>git commit m-"message"</code>  
+<code>git push</code>  
+
+
+
+
 - Fetch changes
 - Commit locally
