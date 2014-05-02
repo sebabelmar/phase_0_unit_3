@@ -57,13 +57,21 @@ Sends your commits to GitHub
 Sends your commits in the "master" branch to GitHub
 
 #### reset
+<code>git reset</code>
+<code>git reset --soft</code>  
+<code>git reset --hard</code>  
+<code>git reset -- files</code>  
+<code>git reset --HEAD~3</code>  
+Moves the current branch to another position, and optionally updates the stage and the working directory. It also is used to copy files from the history to the stage without touching the working directory.
 
 
 #### rm
-<!-- Your defnition here -->
+<code>git rm file.rb</code>  
+Removes files from being tracked in Git. It will also remove them from your working directory. 
 
 #### status
-
+<code>git status</code>  
+Displays the status of files and git of the current work directory.
 
 ## Release 3: Git Workflow
 
