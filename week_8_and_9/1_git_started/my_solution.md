@@ -89,7 +89,5 @@ Bring changes from original repo, and merge if necessary.
 <code>git fetch upstream</code>  
 <code>git merge upstream/master</code>  
 
-
-
-
 ###Commit locally
+<code>git commit m-"message"</code>  
