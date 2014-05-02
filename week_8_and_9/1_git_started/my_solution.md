@@ -3,13 +3,11 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<code>git add file.rb</code>  
-Add with a file:  
+<code>git add file.rb</code>   
 Inserts a file into the futere "commit bucket" aka. Stage or Index.
 It does not add a file to the repo. Instead brings git's attention to the file an leaves it ready to be commited.
 
-<code>git remote add origin https://github.com/username/myproject.git </code>  
-Add remote:  
+<code>git remote add origin https://github.com/username/myproject.git </code> 
 It can be use to reroute the git conection to github by adding a remote or remote upstream depenfing if we want to point our local repository to our remote version or the original version of it.
 
 #### branch
@@ -17,15 +15,13 @@ It can be use to reroute the git conection to github by adding a remote or remot
 Creates a new brach, it has to include the name of the branch (no quatations)
 It makes files accesible on an other point in history.
 
-
-
 #### checkout
 <code>git checkout branch_name</code>  
 Copy files form history (or stage) to the working directory WHEN filename is given. "Fix local mistakes with previuos files"
 And to optionally switch branches WHEN filename is not given. Activates a branch. "Delete mos recent files, safe old good files new local scenario"
 Detached HEAD, WHEN filename and reference is not a branch.
 
-#### 
+#### clone
 <code>git clone https://github.com/username/I_want_this_project.git</code>  
 Makes a copy or clone of a repository into the current directory in terminal
 
