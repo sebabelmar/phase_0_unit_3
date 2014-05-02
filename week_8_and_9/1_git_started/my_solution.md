@@ -5,20 +5,20 @@ Define the following commands and describe how they work/what they do.
 #### add
 <code>git add file.rb</code>   
 Inserts a file into the futere "commit bucket" aka. Stage or Index.
-It does not add a file to the repo. Instead brings git's attention to the file an leaves it ready to be commited.
+It does not add a file to the repo. Instead brings git's attention to the file an leaves it ready to be committed.
 
 <code>git remote add origin https://github.com/username/myproject.git </code>  
-It can be use to reroute the git conection to github by adding a remote or remote upstream depenfing if we want to point our local repository to our remote version or the original version of it.
+It can be use to reroute the git connection to github by adding a remote or remote upstream depending if we want to point our local repository to our remote version or the original version of it.
 
 #### branch
 <code>git branch branch_name</code>  
-Creates a new brach, it has to include the name of the branch (no quatations)
-It makes files accesible on an other point in history.
+Creates a new branch, it has to include the name of the branch (no quotations)
+It makes files accessible on an other point in history.
 
 #### checkout
 <code>git checkout branch_name</code>  
-Copy files form history (or stage) to the working directory WHEN filename is given. "Fix local mistakes with previuos files"
-And to optionally switch branches WHEN filename is not given. Activates a branch. "Delete mos recent files, safe old good files new local scenario"
+Copy files form history (or stage) to the working directory WHEN filename is given. "Fix local mistakes with previous files"
+And to optionally switch branches WHEN filename is not given. Activates a branch. "Delete most recent files, safe old good files new local scenario"
 Detached HEAD, WHEN filename and reference is not a branch.
 
 #### clone
@@ -94,7 +94,7 @@ Bring changes from original repo, and merge if necessary.
 
 ## Reflection
 Fun times!!
-I was absolutly confused at the begging of this asigment but I watched some videos, read, draw some schemas and experiment.
+I was absolutely confused at the begging of this assignment but I watched some videos, read, draw some schemas and experiment.
 After that all made sense. Reading the Visual Reference of GIT safe my life (http://marklodato.github.io/visual-git-guide/index-en.html)
-Im a multidimensional learner and I need thing like that to have a mental picture of what is going on inside the computer when using GIT.
+I’m a multidimensional learner and I need thing like that to have a mental picture of what is going on inside the computer when using GIT.
 GIT is lot more complex and useful than I though and to get to understand all I think will come from practice and others.
