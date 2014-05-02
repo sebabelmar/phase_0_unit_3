@@ -76,15 +76,20 @@ Displays the status of files and git of the current work directory.
 ## Release 3: Git Workflow
 
 ###Push files to a remote repository
-Inside workdirectory already <code>git init</code>:
+Inside workdirectory already <code>git init</code>:  
 Check if workdirectory is well connected to your github, add, commit, push.  
 <code>git remote -v</code>  
 <code>git add file</code>  
 <code>git commit m-"message"</code>  
 <code>git push</code>  
 
+###Fetch changes
+Bring changes from original repo, and merge if necessary.    
+<code>git remote add upstream https://github.com/someones/repo_you_want.git</code>  
+<code>git fetch upstream</code>  
+<code>git merge upstream/master</code>  
 
 
 
-- Fetch changes
-- Commit locally
+
+###Commit locally
