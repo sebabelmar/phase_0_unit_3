@@ -23,7 +23,7 @@ Detached HEAD, WHEN filename and reference is not a branch.
 
 #### clone
 <code>git clone https://github.com/username/I_want_this_project.git</code>  
-Makes a copy or clone of a repository into the current directory in terminal
+Makes a copy or clone of a repository into the current directory in terminal.
 
 #### commit
 <code>git commit -m 'first commit'</code>  
@@ -39,15 +39,25 @@ Retrieves any commits from the target remote that you do not have and stores the
 Prints a log with all commit objects and their individual metadata.
 
 #### merge
+<code>git merge upstream/master</code>   
+Merges any fetched commits into your working files.
+
+<code>git merge branch_name</code>  
+Merges branch_name into the "master" branch.
 
 #### pull
-<!-- Your defnition here -->
+<code>git pull upstream master</code>  
+Retrieves any commits from the target remote that you do not have and stores them in your local repository mergin then into "master"
 
 #### push
-<!-- Your defnition here -->
+<code>git push</code>  
+Sends your commits to GitHub
+
+<code>git push origin master</code>  
+Sends your commits in the "master" branch to GitHub
 
 #### reset
-<!-- Your defnition here -->
+
 
 #### rm
 <!-- Your defnition here -->
