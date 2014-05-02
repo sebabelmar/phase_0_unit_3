@@ -91,3 +91,10 @@ Bring changes from original repo, and merge if necessary.
 
 ###Commit locally
 <code>git commit m-"message"</code>  
+
+## Reflection
+Fun times!!
+I was absolutly confused at the begging of this asigment but I watched some videos, read, draw some schemas and experiment.
+After that all made sense. Reading the Visual Reference of GIT safe my life (http://marklodato.github.io/visual-git-guide/index-en.html)
+Im a multidimensional learner and I need thing like that to have a mental picture of what is going on inside the computer when using GIT.
+GIT is lot more complex and useful than I though and to get to understand all I think will come from practice and others.
