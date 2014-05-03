@@ -1,7 +1,7 @@
 # U3.W8-9: 
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge Eoin
 
 # 2. Pseudocode
 # DEFINE a method that takes an array as parameter. Name it super_fizzbuzz
@@ -67,3 +67,7 @@ assert {super_fizzbuzz([15, 5, 3, 1]) == ['FizzBuzz', 'Buzz', 'Fizz', 1]}
 
 
 # 5. Reflection 
+# This challenge was pretty streight forward. We went thru the logic of it fast and
+# iot didnt took us much time.
+# We struggle translating the rspec.
+# It was really good practice and it's allways good to pair.
