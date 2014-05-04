@@ -58,9 +58,8 @@ var shoppingList = new function() {
       }
     }
   } 
-
-
  }
+ 
 shoppingList.addItem("apple")
 shoppingList.addItem("banana")
 shoppingList.addItem("cherry")
