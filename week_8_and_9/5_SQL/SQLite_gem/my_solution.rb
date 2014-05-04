@@ -124,7 +124,6 @@ end
 # What is the variable `$db` holding?  
 # This is a universal variable holding the data base.
   
-
 # Take a stab at explaining the line 
 # `$db.execute("SELECT name FROM congress_members WHERE years_in_congress 
 #   > #{minimum_years}")`.  Try to explain this as clearly as possible for 
