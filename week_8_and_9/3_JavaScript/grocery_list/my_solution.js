@@ -16,7 +16,6 @@
 
 // var shoppingList = new function() {
 //   var list = [];
-
 //   this.addItem = function(item) {
 //    list.push(item);
 //   }
@@ -38,9 +37,10 @@
 
 
 // 4. Refactored Solution
-var list = [];
+
 
 var shoppingList = new function() {
+  var list = [];
 
   this.addItem = function(item) {
     list.push(item);
