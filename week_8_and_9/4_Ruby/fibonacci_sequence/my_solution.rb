@@ -10,8 +10,8 @@
 
 # The pseudo above didnt work becasue BIGNUM
 
-# REFACTOR using while loop startig form a de first pair od the
-# squence that do not include 1.
+# REFACTOR using while loop startig form a the first pair of the
+# squence that does not include 0 or 1. Make a condition for 0 and 1.
 
 # 3. Initial Solution
 
@@ -64,8 +64,3 @@ assert {is_fibonacci?(14) == false}
 # But at the end the root square of a bignum seems to be to far away from an
 # Integer so we decided to find an other way to solve this.
 # And it worked!.
-
-
-
-
-
