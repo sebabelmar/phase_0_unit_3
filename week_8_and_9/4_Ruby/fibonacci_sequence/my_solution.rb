@@ -28,7 +28,7 @@
 # 4. Refactored Solution
 
 def is_fibonacci?(num)
-	return true if num == 0 || num == 1
+	num == 0 || num == 1
 	fb_pair = [2,3]
 
 	while fb_pair.inject(:+) < num do
