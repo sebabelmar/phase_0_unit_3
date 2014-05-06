@@ -1,25 +1,25 @@
-.schema
-CREATE TABLE 'bank_statements' (
-  'id' INTEGER AUTO_INCREMENT,
-  'bank_account' VARCHAR NULL DEFAULT NULL,
-  'date' DATE NULL DEFAULT NULL,
-  'amount' INTEGER NULL DEFAULT NULL,
-  'transaction_data1' INTEGER NULL DEFAULT NULL,
-  'transaction_data2' INTEGER NULL DEFAULT NULL,
-  'date_created' DATETIME NULL DEFAULT NULL,
-  'date_updated' DATETIME NULL DEFAULT NULL,
-  PRIMARY KEY ('id')
-);
-CREATE TABLE `card_holders` (
-  `id` INTEGER AUTO_INCREMENT DEFAULT NULL,
-  `name` VARCHAR NULL DEFAULT NULL,
-  `date_created` INTEGER NULL DEFAULT NULL,
-  `date_updated` INTEGER NULL DEFAULT NULL,
-  PRIMARY KEY (`id`)
-);
-
-
-SELECT * FROM bank_statements;
+.schema  
+CREATE TABLE 'bank_statements' (  
+  'id' INTEGER AUTO_INCREMENT,  
+  'bank_account' VARCHAR NULL DEFAULT NULL,  
+  'date' DATE NULL DEFAULT NULL,   
+  'amount' INTEGER NULL DEFAULT NULL,  
+  'transaction_data1' INTEGER NULL DEFAULT NULL,  
+  'transaction_data2' INTEGER NULL DEFAULT NULL,  
+  'date_created' DATETIME NULL DEFAULT NULL,  
+  'date_updated' DATETIME NULL DEFAULT NULL,  
+  PRIMARY KEY ('id')  
+);  
+CREATE TABLE `card_holders` (  
+  `id` INTEGER AUTO_INCREMENT DEFAULT NULL,  
+  `name` VARCHAR NULL DEFAULT NULL,  
+  `date_created` INTEGER NULL DEFAULT NULL,  
+  `date_updated` INTEGER NULL DEFAULT NULL,  
+  PRIMARY KEY (`id`)  
+);  
+  
+  
+SELECT * FROM bank_statements;  
 id          bank_account  date        amount      transaction_data1  transaction_data2  date_created  date_updated
 ----------  ------------  ----------  ----------  -----------------  -----------------  ------------  ------------
 1           AR            5062014     100         DEPOSIT            1002               1012012       5062014     
@@ -33,17 +33,17 @@ id          bank_account  date        amount      transaction_data1  transaction
 9           AP            5062014     50          CHECK CRD PURCHAS  1001               1012012       5062014     
 10          AP            5062014     770         CHECK CRD PURCHAS  1001               1012012       5062014     
 11          AP            5062014     650         CHECK CRD PURCHAS  1003               1012012       5062014     
-
-
-SELECT * FROM card_holders;
+  
+  
+SELECT * FROM card_holders;  
 id          name        date_created  date_updated
 ----------  ----------  ------------  ------------
 1001        LAURA       1012012       1012012     
 1002        MIKE        1012012       1012012     
 1003        MORGAN      1012012       1012012  
-
-
-SELECT bank_account,date,amount, name FROM bank_statements JOIN card_holders ON (`transaction_data2` = card_holders.id) ORDER BY name;
+  
+  
+SELECT bank_account,date,amount, name FROM bank_statements JOIN card_holders ON (`transaction_data2` = card_holders.id) ORDER BY name;  
 bank_account  date        amount      name      
 ------------  ----------  ----------  ----------
 AR            5062014     200         LAURA     
