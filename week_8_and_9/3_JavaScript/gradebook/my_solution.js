@@ -18,38 +18,46 @@ var scores = [ [80, 70, 70, 100],
                [75, 70, 80, 75],
                [100, 90, 95, 85] ]
 
-
-
-
-
-
 // __________________________________________
 // Write your code below.
 
 
-
-
-
-
 // __________________________________________
 // Refactored Solution
+var average = function(gradesSet){
+  sum = 0
+  for(var index in gradesSet){
+    sum = sum + gradesSet[index];
+  }
+  return sum / gradesSet.length;
+}
 
 
 
+var gradebook = {
+  Joseph:{testScores: scores[0]},
+  Susan:{testScores: scores[1]},
+  William:{testScores: scores[2]},
+  Elizabeth:{testScores: scores[3]},
 
+  addScore:function(studentName, grade){
+    return gradebook[studentName].testScores.push(grade)
+  },
 
-
+  getAverage:function(studentName){
+    return average(gradebook[studentName].testScores);
+  }
+}
 
 
 // __________________________________________
 // Reflect
-
-
-
-
-
-
-
+// I thought that I had to come up with the name: {testScores: scores[x]} automatically. This distracted me a lot.
+// Because I was working with Kevin I was able to learn how to start this challenge. Sincerely I dint feel confortable in JS 
+// I need to spend a few hours on it. I think finishing App Academy and Treehouse on the topic will help me.
+// I want to build something on Ruby on Rails as well so I will spend the next 2 days doing that.
+// I need to understand how to nest object into objects and access to its information and iterate over them before getting into
+// Devboot Camp. Im finis with week 9 but there are a lot to read and practice still.
 
 
 // __________________________________________
