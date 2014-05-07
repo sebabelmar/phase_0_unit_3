@@ -25,7 +25,7 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Refactored Solution
 var average = function(gradesSet){
-  sum = 0
+  var sum = 0
   for(var index in gradesSet){
     sum = sum + gradesSet[index];
   }
