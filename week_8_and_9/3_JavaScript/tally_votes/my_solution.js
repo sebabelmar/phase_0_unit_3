@@ -1,6 +1,7 @@
+
 // U3.W8-9: Gradebook from Names and Scores
 
-// I worked on this challenge [by myself, with:]
+// I worked on this challenge Kevin Kang, Clark Hinchcliff, Sebastian Belmar.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -64,31 +65,96 @@ var officers = {
 }
 
 // Pseudocode
+// DEFINE a var counter as a function
+//   ITERATE using for over votes defining a variable named voter
+//     DEFINE var ballot = to votes[voter]
+//       ITERATE usign for over ballor
+
+// DEFINE a variable winner as a function that takes voteCount in as a argument
+//  iterate through votecount's position
+//    iterate through each candidates votes
+//      put all of the votes into an array
+//        find the candidate with the highest value in the array
+//        set a variable equal to the above value
+//        put the name value of the variable into the corresponding position of officers
 
 
 // __________________________________________
 // Initial Solution
 
+// var counter = function(){
+//  for(var voter in votes){
+//    var ballot = votes[voter];
+//    for(var position in ballot){
+//       var candidate = ballot[position];
+//       if(!voteCount[position][candidate]){
+//         voteCount[position][candidate] = 0;
+//       }
+//       voteCount[position][candidate]++;    
+//     }
+//   }
+// }
 
+// counter();
 
+// var winner = function() {
+//   for (var position in voteCount) {
+//     var initial = 0;
+//     for (var officer in voteCount[position]) {
+//       if (voteCount[position][officer] > initial) {
+//         officers[position] = officer;
+//         initial = voteCount[position][officer];
+//       }
+//     }
+//   }
+// }
 
-
-
+// winner();
 
 // __________________________________________
 // Refactored Solution
 
+var counter = function(){
+ for(var voter in votes){
+   var ballot = votes[voter];
+   for(var position in ballot){
+      var candidate = ballot[position];
+      if(!voteCount[position][candidate]){
+        voteCount[position][candidate] = 0;
+      }
+      voteCount[position][candidate]++;    
+    }
+  }
+}
 
+counter();
 
+var winner = function() {
+  for (var position in voteCount) {
+    var initial = 0;
+    for (var officer in voteCount[position]) {
+      if (voteCount[position][officer] > initial) {
+        officers[position] = officer;
+        initial = voteCount[position][officer];
+      }
+    }
+  }
+}
 
+winner();
 
 
 // __________________________________________
 // Reflection
-
-
-
-
+I pair with Kevin and Clark on this challenge.
+To be honest I was so lost the first 20 minutes. JS iteration over this "js Hashes" was completely out 
+of my scope of knowledge. 
+I kind of got it, and I was able to contribute on the logic of the second method that we wrote.
+Even being 3 heads on this challenge we got stacked. It took us a while to find a simple syntax mistake.
+But we learned a lot. Actually I learned something completely new.
+Im going to need to go over this challenge rewrite it by my own a few times and run different sections of it to have a complete
+visual understanding of what is going on here. Now for the abstracted comprehension of it that I have I don’t feel 100% confortable.
+Great challenge and it was great to see Clark and Kevin writing it.
 
 
 // __________________________________________
