@@ -150,7 +150,7 @@ assert{in_words(100)} == "one hundred"
 
 # 5. Reflection
 # THIS IS NOT AN EFFICIENT PROGRAM, there a few things that I would fix
-# The space after each a close tens place like 20.
+# The space after each a close tens place like 20 "twenty " 
 # and well it works only for numbers less equal than a hundred.
 # I liked that I started with something in mind and turn it to a completely different
 # program. I think there showld be a easier wat to do this. I need to check what 
