@@ -37,7 +37,7 @@ def is_fibonacci?(num)
 		fb_pair << fb_nxt_num
 	end
 
-	fb_pair[0] + fb_pair[1] == num ? true : false
+	fb_pair[0] + fb_pair[1] == num
 
 end
 
