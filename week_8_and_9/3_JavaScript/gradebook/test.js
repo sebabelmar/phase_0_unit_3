@@ -10,9 +10,6 @@ Do not alter the students and scores code.
 I worked on this challenge [by myself, with:]
 
 */
-
-var students = ["Joseph", "Susan", "William", "Elizabeth"]
-
 var scores = [ [80, 70, 70, 100],
                [85, 80, 90, 90],
                [75, 70, 80, 75],
@@ -24,26 +21,26 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Refactored Solution
-var average = function(gradesSet){
-  var sum = 0
-  for(var index in gradesSet){
-    sum = sum + gradesSet[index];
+var average = function(array){
+  var sum = 0;
+  for(i = 0; i < array.length; i++){
+    sum = sum + array[i];
   }
-  return sum / gradesSet.length;
-}
+  return sum / array.length;
+  }
 
 var gradebook = {
-  Joseph:{testScores: scores[0]},
-  Susan:{testScores: scores[1]},
-  William:{testScores: scores[2]},
-  Elizabeth:{testScores: scores[3]},
+  Joseph:{testScores:scores[0]},
+  Susan:{testScores:scores[1]},
+  William:{testScores:scores[2]},
+  Elizabeth:{testScores:scores[3]},
 
-  addScore:function(studentName, grade){
-    return gradebook[studentName].testScores.push(grade)
+  addScore:function(student, addGrade){
+    return gradebook[student].testScores.push(addGrade);
   },
 
-  getAverage:function(studentName){
-    return average(gradebook[studentName].testScores);
+  getAverage:function(student){
+    return average(gradebook[student].testScores)
   }
 }
 

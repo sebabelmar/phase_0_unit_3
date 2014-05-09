@@ -146,15 +146,15 @@ winner();
 
 // __________________________________________
 // Reflection
-I pair with Kevin and Clark on this challenge.
-To be honest I was so lost the first 20 minutes. JS iteration over this "js Hashes" was completely out 
-of my scope of knowledge. 
-I kind of got it, and I was able to contribute on the logic of the second method that we wrote.
-Even being 3 heads on this challenge we got stacked. It took us a while to find a simple syntax mistake.
-But we learned a lot. Actually I learned something completely new.
-Im going to need to go over this challenge rewrite it by my own a few times and run different sections of it to have a complete
-visual understanding of what is going on here. Now for the abstracted comprehension of it that I have I don’t feel 100% confortable.
-Great challenge and it was great to see Clark and Kevin writing it.
+// I pair with Kevin and Clark on this challenge.
+// To be honest I was so lost the first 20 minutes. JS iteration over this "js Hashes" was completely out 
+// of my scope of knowledge. 
+// I kind of got it, and I was able to contribute on the logic of the second method that we wrote.
+// Even being 3 heads on this challenge we got stacked. It took us a while to find a simple syntax mistake.
+// But we learned a lot. Actually I learned something completely new.
+// Im going to need to go over this challenge rewrite it by my own a few times and run different sections of it to have a complete
+// visual understanding of what is going on here. Now for the abstracted comprehension of it that I have I don’t feel 100% confortable.
+// Great challenge and it was great to see Clark and Kevin writing it.
 
 
 // __________________________________________
