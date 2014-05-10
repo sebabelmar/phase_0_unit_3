@@ -58,7 +58,8 @@ var object_creator = function(){
   console.log("")
   //-------------------------------------------------------------------------------------
 
-  // Here I created 2 new objects inside voteCount.vicePresident with value = to 0
+  // Here I created 2 new objects inside voteCount.President with value = to 0 
+  // and 2 new objects inside voteCount.vicePresident with value = to 0 (Bob x2  will be just one)
   // Remeber that you can create objects from the "outside" using dot/brakets notation.
   // (This is how we create variables inside voteCount from counter)
   voteCount[position1][candidate2] = 0
@@ -75,6 +76,7 @@ var object_creator = function(){
 
 
   // Adding to each new object value
+  // Think about this for(var i,conditional,increment) when iterating over the objects for(var yourVariable in objects).
   for(i=1; i<=10;i++){
   voteCount[position1][candidate1]++; // here I add 10 to voteCount.president.candidate1
   }
