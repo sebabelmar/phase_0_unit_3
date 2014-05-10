@@ -78,16 +78,16 @@ var object_creator = function(){
   // Adding to each new object value
   // Think about this for(var i,conditional,increment) when iterating over the objects for(var yourVariable in objects).
   for(i=1; i<=10;i++){
-  voteCount[position1][candidate1]++; // here I add 10 to voteCount.president.candidate1
+  voteCount[position1][candidate1]++; // add 10 to voteCount.president.candidate1
   }
   for(i=1; i<=10;i++){
-  voteCount[position2][candidate1]++; // here I add 10 to voteCount.vicePresident.candidate1
+  voteCount[position2][candidate1]++; // add 10 to voteCount.vicePresident.candidate1
   }
   for(i=1; i<=5;i++){
-  voteCount[position2]["Bob"]++; // here I add 5 to voteCount.vicePresident.candidate2 (candidate1) using "" 
+  voteCount[position2]["Bob"]++; // add 5 to voteCount.vicePresident.candidate2 (candidate1) using "" 
   }
   for(i=1; i<=8;i++){
-  voteCount[position2][candidate3]++; // here I add 8 to voteCount.vicePresident.candidate3
+  voteCount[position2][candidate3]++; // add 8 to voteCount.vicePresident.candidate3
   }
 
   // To show in the terminal
