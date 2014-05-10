@@ -10,6 +10,9 @@ Do not alter the students and scores code.
 I worked on this challenge [by myself, with:]
 
 */
+
+var students = ["Joseph", "Susan", "William", "Elizabeth"]
+
 var scores = [ [80, 70, 70, 100],
                [85, 80, 90, 90],
                [75, 70, 80, 75],
@@ -21,13 +24,14 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Refactored Solution
-var average = function(array){
-  var sum = 0;
-  for(i = 0; i < array.length; i++){
-    sum = sum + array[i];
+var average = function(arr_calculate){
+  var sum = 0
+  for(var index in arr_calculate){
+    sum += arr_calculate[index];
   }
-  return sum / array.length;
-  }
+  return sum / arr_calculate.length
+}
+
 
 var gradebook = {
   Joseph:{testScores:scores[0]},
@@ -35,14 +39,17 @@ var gradebook = {
   William:{testScores:scores[2]},
   Elizabeth:{testScores:scores[3]},
 
-  addScore:function(student, addGrade){
-    return gradebook[student].testScores.push(addGrade);
+  addScore:function(studName, grade){
+    gradebook[studName].testScores.push(grade);
   },
 
-  getAverage:function(student){
-    return average(gradebook[student].testScores)
+  getAverage:function(studName){
+    return average(gradebook[studName].testScores)
   }
 }
+
+
+
 
 
 // __________________________________________
@@ -50,8 +57,8 @@ var gradebook = {
 // I thought that I had to come up with the name: {testScores: scores[x]} automatically. This distracted me a lot.
 // Because I was working with Kevin I was able to learn how to start this challenge. Sincerely I dint feel confortable in JS 
 // I need to spend a few hours on it. I think finishing App Academy and Treehouse on the topic will help me.
-// I want to build something on Ruby on Rails as well so I will spend the next 2 days doing that.
-// I need to understand how to nest object into objects and access to its information and iterate over them before getting into
+// // I want to build something on Ruby on Rails as well so I will spend the next 2 days doing that.
+// // I need to understand how to nest object into objects and access to its information and iterate over them before getting into
 // Devboot Camp. Im finis with week 9 but there are a lot to read and practice still.
 
 
